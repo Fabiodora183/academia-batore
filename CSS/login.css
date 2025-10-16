@@ -1,0 +1,98 @@
+/* Override Bootstrap primary color to red */
+:root {
+    --bs-primary: #dc143c;
+    --bs-primary-rgb: 220, 20, 60;
+}
+
+/* Body with red gym-themed background */
+body {
+    background-color: #dc143c; /* Crimson red for gym theme */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Card styling for better text section appearance */
+.card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 2px solid #dc143c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form labels */
+.form-label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+/* Form inputs */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Form text (help text) */
+.form-text {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Submit button */
+.botao {
+    background-color: #dc143c;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.botao:hover {
+    background-color: #b01030;
+}
+
+/* Forgot password link */
+.botao-senha {
+    color: #dc143c;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.botao-senha:hover {
+    text-decoration: underline;
+}
+
+/* Registration link */
+.botao-cadastro {
+    color: #dc143c;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+}
+
+.botao-cadastro:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    main {
+        padding: 20px;
+        margin: 20px;
+    }
+}
