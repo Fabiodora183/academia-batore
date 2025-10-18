@@ -20,6 +20,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+
 /* Form labels */
 .form-label {
     font-size: 16px;
@@ -96,3 +97,15 @@ body {
         margin: 20px;
     }
 }
+
+.form-box {
+  display: none !important; 
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.form-box.active {
+  display: flex !important; 
+  opacity: 1;
+}
+
