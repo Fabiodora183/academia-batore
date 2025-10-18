@@ -1,0 +1,11 @@
+.form-box {
+  display: none !important; 
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.form-box.active {
+  display: flex !important; 
+  opacity: 1;
+}
+
